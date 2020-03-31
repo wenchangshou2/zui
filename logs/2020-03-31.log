@@ -1,0 +1,897 @@
+{"level":"info","time":"2020-03-31T11:44:22.594+0800","caller":"D:/代码/公用/zui/pkg/logging/logging.go:71","msg":"log 初始化成功"}
+{"level":"info","time":"2020-03-31T11:51:46.357+0800","caller":"D:/代码/公用/zui/pkg/logging/logging.go:71","msg":"log 初始化成功"}
+{"level":"info","time":"2020-03-31T11:52:04.878+0800","caller":"D:/代码/公用/zui/schedule.go:90","msg":"action:RegisterToDaemon"}
+{"level":"info","time":"2020-03-31T11:52:19.923+0800","caller":"D:/代码/公用/zui/schedule.go:209","msg":"recv message:{\n\t\"Action\":\"activeByPid\",\n\t\"Pid\":27168\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T11:52:19.923+0800","caller":"D:/代码/公用/zui/schedule.go:119","msg":"action:activeByPid"}
+{"level":"info","time":"2020-03-31T11:52:19.923+0800","caller":"D:/代码/公用/zui/schedule.go:167","msg":"send message:{\"Action\":\"activeByPid\",\"message\":\"未支持的操作111\",\"receiverName\":\"/zebus\",\"senderName\":\"/resourcesService\",\"state\":400}"}
+{"level":"info","time":"2020-03-31T11:52:19.923+0800","caller":"D:/代码/公用/zui/schedule.go:264","msg":"write message:{\"Action\":\"activeByPid\",\"message\":\"未支持的操作111\",\"receiverName\":\"/zebus\",\"senderName\":\"/resourcesService\",\"state\":400};write topic:/daemon"}
+{"level":"info","time":"2020-03-31T11:52:19.925+0800","caller":"D:/代码/公用/zui/schedule.go:284","msg":"send memoryMsg success"}
+{"level":"warn","time":"2020-03-31T11:52:58.949+0800","caller":"D:/代码/公用/zui/schedule.go:200","msg":"recv message field:(read tcp 127.0.0.1:57209->127.0.0.1:5678: wsarecv: An existing connection was forcibly closed by the remote host.)","stacktrace":"main.(*Client).ReadPump\n\tD:/代码/公用/zui/schedule.go:200"}
+{"level":"info","time":"2020-03-31T11:53:16.145+0800","caller":"D:/代码/公用/zui/pkg/logging/logging.go:71","msg":"log 初始化成功"}
+{"level":"info","time":"2020-03-31T11:53:18.151+0800","caller":"D:/代码/公用/zui/schedule.go:90","msg":"action:RegisterToDaemon"}
+{"level":"info","time":"2020-03-31T11:53:18.599+0800","caller":"D:/代码/公用/zui/schedule.go:210","msg":"recv message:{\n\t\"Action\":\"KeyBoard\",\n}\n\n\n\n"}
+{"level":"warn","time":"2020-03-31T11:53:18.599+0800","caller":"D:/代码/公用/zui/schedule.go:157","msg":"parse json error:(invalid character '}' looking for beginning of object key string)","stacktrace":"main.(*Client).BinaryMessageProcess\n\tD:/代码/公用/zui/schedule.go:157\nmain.(*Client).ReadPump\n\tD:/代码/公用/zui/schedule.go:211"}
+{"level":"info","time":"2020-03-31T11:53:21.700+0800","caller":"D:/代码/公用/zui/schedule.go:210","msg":"recv message:{\n\t\"Action\":\"KeyBoard\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T11:53:21.701+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:KeyBoard"}
+{"level":"info","time":"2020-03-31T11:53:21.701+0800","caller":"D:/代码/公用/zui/schedule.go:168","msg":"send message:{\"Action\":\"KeyBoard\",\"message\":\"未支持的操作111\",\"receiverName\":\"/zebus\",\"senderName\":\"/resourcesService\",\"state\":400}"}
+{"level":"info","time":"2020-03-31T11:53:21.702+0800","caller":"D:/代码/公用/zui/schedule.go:265","msg":"write message:{\"Action\":\"KeyBoard\",\"message\":\"未支持的操作111\",\"receiverName\":\"/zebus\",\"senderName\":\"/resourcesService\",\"state\":400};write topic:/daemon"}
+{"level":"info","time":"2020-03-31T11:53:21.702+0800","caller":"D:/代码/公用/zui/schedule.go:285","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T11:55:12.710+0800","caller":"D:/代码/公用/zui/pkg/logging/logging.go:71","msg":"log 初始化成功"}
+{"level":"info","time":"2020-03-31T11:55:18.899+0800","caller":"D:/代码/公用/zui/pkg/logging/logging.go:71","msg":"log 初始化成功"}
+{"level":"info","time":"2020-03-31T11:55:20.901+0800","caller":"D:/代码/公用/zui/schedule.go:90","msg":"action:RegisterToDaemon"}
+{"level":"info","time":"2020-03-31T11:55:20.901+0800","caller":"D:/代码/公用/zui/schedule.go:208","msg":"recv message:{\n\t\"Action\":\"KeyBoard\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T11:55:20.902+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:KeyBoard"}
+{"level":"info","time":"2020-03-31T11:55:24.833+0800","caller":"D:/代码/公用/zui/schedule.go:208","msg":"recv message:{\n\t\"Action\":\"KeyBoard\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T11:55:24.833+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:KeyBoard"}
+{"level":"info","time":"2020-03-31T11:55:59.563+0800","caller":"D:/代码/公用/zui/pkg/logging/logging.go:71","msg":"log 初始化成功"}
+{"level":"info","time":"2020-03-31T11:56:01.565+0800","caller":"D:/代码/公用/zui/schedule.go:90","msg":"action:RegisterToDaemon"}
+{"level":"info","time":"2020-03-31T11:56:01.630+0800","caller":"D:/代码/公用/zui/schedule.go:209","msg":"recv message:{\n\t\"Action\":\"KeyBoard\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T11:56:01.630+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:KeyBoard"}
+{"level":"info","time":"2020-03-31T11:56:16.710+0800","caller":"D:/代码/公用/zui/pkg/logging/logging.go:71","msg":"log 初始化成功"}
+{"level":"info","time":"2020-03-31T11:56:18.711+0800","caller":"D:/代码/公用/zui/schedule.go:90","msg":"action:RegisterToDaemon"}
+{"level":"info","time":"2020-03-31T11:56:18.711+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n\t\"Action\":\"KeyBoard\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T11:56:18.711+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:KeyBoard"}
+{"level":"info","time":"2020-03-31T11:56:18.711+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"KeyBoard\",\"message\":\"未支持的操作111\",\"state\":400}"}
+{"level":"info","time":"2020-03-31T11:56:18.713+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"KeyBoard\",\"message\":\"未支持的操作111\",\"state\":400};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T11:56:18.713+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T11:56:19.662+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n\t\"Action\":\"KeyBoard\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T11:56:19.662+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:KeyBoard"}
+{"level":"info","time":"2020-03-31T11:56:19.663+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"KeyBoard\",\"message\":\"未支持的操作111\",\"state\":400}"}
+{"level":"info","time":"2020-03-31T11:56:19.663+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"KeyBoard\",\"message\":\"未支持的操作111\",\"state\":400};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T11:56:19.663+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T11:56:20.271+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n\t\"Action\":\"KeyBoard\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T11:56:20.271+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:KeyBoard"}
+{"level":"info","time":"2020-03-31T11:56:20.271+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"KeyBoard\",\"message\":\"未支持的操作111\",\"state\":400}"}
+{"level":"info","time":"2020-03-31T11:56:20.271+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"KeyBoard\",\"message\":\"未支持的操作111\",\"state\":400};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T11:56:20.272+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T11:56:20.493+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n\t\"Action\":\"KeyBoard\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T11:56:20.493+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:KeyBoard"}
+{"level":"info","time":"2020-03-31T11:56:20.493+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"KeyBoard\",\"message\":\"未支持的操作111\",\"state\":400}"}
+{"level":"info","time":"2020-03-31T11:56:20.494+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"KeyBoard\",\"message\":\"未支持的操作111\",\"state\":400};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T11:56:20.494+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T11:56:20.951+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n\t\"Action\":\"KeyBoard\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T11:56:20.951+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:KeyBoard"}
+{"level":"info","time":"2020-03-31T11:56:20.952+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"KeyBoard\",\"message\":\"未支持的操作111\",\"state\":400}"}
+{"level":"info","time":"2020-03-31T11:56:20.952+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"KeyBoard\",\"message\":\"未支持的操作111\",\"state\":400};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T11:56:20.953+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T11:56:21.132+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n\t\"Action\":\"KeyBoard\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T11:56:21.133+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:KeyBoard"}
+{"level":"info","time":"2020-03-31T11:56:21.133+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"KeyBoard\",\"message\":\"未支持的操作111\",\"state\":400}"}
+{"level":"info","time":"2020-03-31T11:56:21.133+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"KeyBoard\",\"message\":\"未支持的操作111\",\"state\":400};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T11:56:21.134+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T11:56:21.334+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n\t\"Action\":\"KeyBoard\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T11:56:21.334+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:KeyBoard"}
+{"level":"info","time":"2020-03-31T11:56:21.335+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"KeyBoard\",\"message\":\"未支持的操作111\",\"state\":400}"}
+{"level":"info","time":"2020-03-31T11:56:21.335+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"KeyBoard\",\"message\":\"未支持的操作111\",\"state\":400};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T11:56:21.335+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T11:56:21.534+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n\t\"Action\":\"KeyBoard\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T11:56:21.534+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:KeyBoard"}
+{"level":"info","time":"2020-03-31T11:56:21.535+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"KeyBoard\",\"message\":\"未支持的操作111\",\"state\":400}"}
+{"level":"info","time":"2020-03-31T11:56:21.535+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"KeyBoard\",\"message\":\"未支持的操作111\",\"state\":400};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T11:56:21.535+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T11:56:21.774+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n\t\"Action\":\"KeyBoard\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T11:56:21.775+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:KeyBoard"}
+{"level":"info","time":"2020-03-31T11:56:21.775+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"KeyBoard\",\"message\":\"未支持的操作111\",\"state\":400}"}
+{"level":"info","time":"2020-03-31T11:56:21.775+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"KeyBoard\",\"message\":\"未支持的操作111\",\"state\":400};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T11:56:21.776+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T11:56:21.967+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n\t\"Action\":\"KeyBoard\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T11:56:21.967+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:KeyBoard"}
+{"level":"info","time":"2020-03-31T11:56:21.968+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"KeyBoard\",\"message\":\"未支持的操作111\",\"state\":400}"}
+{"level":"info","time":"2020-03-31T11:56:21.969+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"KeyBoard\",\"message\":\"未支持的操作111\",\"state\":400};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T11:56:21.969+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T11:56:22.163+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n\t\"Action\":\"KeyBoard\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T11:56:22.163+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:KeyBoard"}
+{"level":"info","time":"2020-03-31T11:56:22.164+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"KeyBoard\",\"message\":\"未支持的操作111\",\"state\":400}"}
+{"level":"info","time":"2020-03-31T11:56:22.164+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"KeyBoard\",\"message\":\"未支持的操作111\",\"state\":400};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T11:56:22.164+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T11:56:22.373+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n\t\"Action\":\"KeyBoard\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T11:56:22.374+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:KeyBoard"}
+{"level":"info","time":"2020-03-31T11:56:22.374+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"KeyBoard\",\"message\":\"未支持的操作111\",\"state\":400}"}
+{"level":"info","time":"2020-03-31T11:56:22.375+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"KeyBoard\",\"message\":\"未支持的操作111\",\"state\":400};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T11:56:22.375+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T11:56:22.581+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n\t\"Action\":\"KeyBoard\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T11:56:22.581+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:KeyBoard"}
+{"level":"info","time":"2020-03-31T11:56:22.581+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"KeyBoard\",\"message\":\"未支持的操作111\",\"state\":400}"}
+{"level":"info","time":"2020-03-31T11:56:22.582+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"KeyBoard\",\"message\":\"未支持的操作111\",\"state\":400};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T11:56:22.582+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T11:56:22.783+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n\t\"Action\":\"KeyBoard\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T11:56:22.784+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:KeyBoard"}
+{"level":"info","time":"2020-03-31T11:56:22.784+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"KeyBoard\",\"message\":\"未支持的操作111\",\"state\":400}"}
+{"level":"info","time":"2020-03-31T11:56:22.784+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"KeyBoard\",\"message\":\"未支持的操作111\",\"state\":400};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T11:56:22.784+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T11:56:23.161+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n\t\"Action\":\"KeyBoard\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T11:56:23.161+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:KeyBoard"}
+{"level":"info","time":"2020-03-31T11:56:23.161+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"KeyBoard\",\"message\":\"未支持的操作111\",\"state\":400}"}
+{"level":"info","time":"2020-03-31T11:56:23.161+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"KeyBoard\",\"message\":\"未支持的操作111\",\"state\":400};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T11:56:23.161+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T11:56:23.358+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n\t\"Action\":\"KeyBoard\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T11:56:23.358+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:KeyBoard"}
+{"level":"info","time":"2020-03-31T11:56:23.359+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"KeyBoard\",\"message\":\"未支持的操作111\",\"state\":400}"}
+{"level":"info","time":"2020-03-31T11:56:23.359+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"KeyBoard\",\"message\":\"未支持的操作111\",\"state\":400};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T11:56:23.359+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T11:56:23.578+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n\t\"Action\":\"KeyBoard\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T11:56:23.578+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:KeyBoard"}
+{"level":"info","time":"2020-03-31T11:56:23.578+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"KeyBoard\",\"message\":\"未支持的操作111\",\"state\":400}"}
+{"level":"info","time":"2020-03-31T11:56:23.579+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"KeyBoard\",\"message\":\"未支持的操作111\",\"state\":400};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T11:56:23.579+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T11:56:40.285+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n\t\"Action\":\"Keyboard\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T11:56:40.285+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:Keyboard"}
+{"level":"info","time":"2020-03-31T11:56:40.286+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"Keyboard\",\"message\":\"未支持的操作111\",\"state\":400}"}
+{"level":"info","time":"2020-03-31T11:56:40.286+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"Keyboard\",\"message\":\"未支持的操作111\",\"state\":400};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T11:56:40.286+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T11:56:50.727+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n\t\"Action\":\"keyboard\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T11:56:50.728+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:keyboard"}
+{"level":"info","time":"2020-03-31T11:56:50.728+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"keyboard\",\"message\":\"key 必须存在\",\"state\":400}"}
+{"level":"info","time":"2020-03-31T11:56:50.728+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"keyboard\",\"message\":\"key 必须存在\",\"state\":400};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T11:56:50.729+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T11:57:06.366+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n\t\"Action\":\"keyboard\",\n\t\"Key\":\"alt+tab\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T11:57:06.367+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:keyboard"}
+{"level":"info","time":"2020-03-31T11:57:06.367+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T11:57:06.367+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T11:57:06.368+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T11:57:09.070+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n\t\"Action\":\"keyboard\",\n\t\"Key\":\"alt+tab\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T11:57:09.071+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:keyboard"}
+{"level":"info","time":"2020-03-31T11:57:09.072+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T11:57:09.072+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T11:57:09.072+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T11:57:12.513+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n\t\"Action\":\"keyboard\",\n\t\"Key\":\"alt+tab\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T11:57:12.513+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:keyboard"}
+{"level":"info","time":"2020-03-31T11:57:12.513+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T11:57:12.513+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T11:57:12.513+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T11:57:13.201+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n\t\"Action\":\"keyboard\",\n\t\"Key\":\"alt+tab\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T11:57:13.201+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:keyboard"}
+{"level":"info","time":"2020-03-31T11:57:13.203+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T11:57:13.203+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T11:57:13.203+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T11:57:13.395+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n\t\"Action\":\"keyboard\",\n\t\"Key\":\"alt+tab\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T11:57:13.395+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:keyboard"}
+{"level":"info","time":"2020-03-31T11:57:13.396+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T11:57:13.396+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T11:57:13.397+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T11:57:13.570+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n\t\"Action\":\"keyboard\",\n\t\"Key\":\"alt+tab\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T11:57:13.570+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:keyboard"}
+{"level":"info","time":"2020-03-31T11:57:13.571+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T11:57:13.571+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T11:57:13.572+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T11:57:13.993+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n\t\"Action\":\"keyboard\",\n\t\"Key\":\"alt+tab\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T11:57:13.994+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:keyboard"}
+{"level":"info","time":"2020-03-31T11:57:13.994+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T11:57:13.994+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T11:57:13.994+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T11:57:14.585+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n\t\"Action\":\"keyboard\",\n\t\"Key\":\"alt+tab\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T11:57:14.585+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:keyboard"}
+{"level":"info","time":"2020-03-31T11:57:14.586+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T11:57:14.586+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T11:57:14.586+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T11:58:17.120+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n\t\"Action\":\"keyboard\",\n\t\"Key\":\"1\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T11:58:17.121+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:keyboard"}
+{"level":"info","time":"2020-03-31T11:58:17.121+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T11:58:17.121+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T11:58:17.122+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T11:58:19.237+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n\t\"Action\":\"keyboard\",\n\t\"Key\":\"1\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T11:58:19.237+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:keyboard"}
+{"level":"info","time":"2020-03-31T11:58:19.238+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T11:58:19.238+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T11:58:19.239+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T11:58:19.657+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n\t\"Action\":\"keyboard\",\n\t\"Key\":\"1\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T11:58:19.658+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:keyboard"}
+{"level":"info","time":"2020-03-31T11:58:19.659+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T11:58:19.659+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T11:58:19.659+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T11:58:19.888+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n\t\"Action\":\"keyboard\",\n\t\"Key\":\"1\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T11:58:19.888+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:keyboard"}
+{"level":"info","time":"2020-03-31T11:58:19.889+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T11:58:19.889+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T11:58:19.889+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T11:58:20.099+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n\t\"Action\":\"keyboard\",\n\t\"Key\":\"1\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T11:58:20.099+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:keyboard"}
+{"level":"info","time":"2020-03-31T11:58:20.100+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T11:58:20.100+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T11:58:20.100+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T13:46:09.337+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n\t\"Action\":\"keyboard\",\n\t\"Key\":\"alt+tab\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T13:46:09.337+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:keyboard"}
+{"level":"info","time":"2020-03-31T13:46:09.338+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T13:46:09.338+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T13:46:09.339+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T13:47:20.292+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n\t\"Action\":\"keyboard\",\n\t\"Key\":\"1\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T13:47:20.293+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:keyboard"}
+{"level":"info","time":"2020-03-31T13:47:20.293+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T13:47:20.294+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T13:47:20.294+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T13:47:21.560+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n\t\"Action\":\"keyboard\",\n\t\"Key\":\"1\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T13:47:21.560+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:keyboard"}
+{"level":"info","time":"2020-03-31T13:47:21.560+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T13:47:21.560+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T13:47:21.560+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T13:47:22.070+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n\t\"Action\":\"keyboard\",\n\t\"Key\":\"1\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T13:47:22.070+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:keyboard"}
+{"level":"info","time":"2020-03-31T13:47:22.070+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T13:47:22.071+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T13:47:22.071+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T13:47:22.612+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n\t\"Action\":\"keyboard\",\n\t\"Key\":\"1\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T13:47:22.612+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:keyboard"}
+{"level":"info","time":"2020-03-31T13:47:22.613+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T13:47:22.613+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T13:47:22.614+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T13:47:22.867+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n\t\"Action\":\"keyboard\",\n\t\"Key\":\"1\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T13:47:22.868+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:keyboard"}
+{"level":"info","time":"2020-03-31T13:47:22.868+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T13:47:22.868+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T13:47:22.868+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T13:47:23.067+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n\t\"Action\":\"keyboard\",\n\t\"Key\":\"1\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T13:47:23.067+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:keyboard"}
+{"level":"info","time":"2020-03-31T13:47:23.068+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T13:47:23.068+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T13:47:23.068+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T13:47:23.286+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n\t\"Action\":\"keyboard\",\n\t\"Key\":\"1\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T13:47:23.286+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:keyboard"}
+{"level":"info","time":"2020-03-31T13:47:23.287+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T13:47:23.287+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T13:47:23.287+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T13:48:15.915+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n\t\"Action\":\"keyboard\",\n\t\"Key\":\"F1\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T13:48:15.916+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:keyboard"}
+{"level":"info","time":"2020-03-31T13:48:15.917+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T13:48:15.917+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T13:48:15.917+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T13:48:17.639+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n\t\"Action\":\"keyboard\",\n\t\"Key\":\"F1\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T13:48:17.639+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:keyboard"}
+{"level":"info","time":"2020-03-31T13:48:17.640+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T13:48:17.640+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T13:48:17.640+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T13:48:37.350+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n \"Action\":\"keyboard\",\n \"Key\":\"1\"\n}\n\n"}
+{"level":"info","time":"2020-03-31T13:48:37.350+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:keyboard"}
+{"level":"info","time":"2020-03-31T13:48:37.351+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T13:48:37.352+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T13:48:37.352+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T13:48:59.053+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n \"Action\":\"keyboard\",\n \"Key\":\"F1\"\n}\n\n"}
+{"level":"info","time":"2020-03-31T13:48:59.053+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:keyboard"}
+{"level":"info","time":"2020-03-31T13:48:59.054+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T13:48:59.054+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T13:48:59.054+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T13:49:04.995+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n \"Action\":\"keyboard\",\n \"Key\":\"F1\"\n}\n\n"}
+{"level":"info","time":"2020-03-31T13:49:04.995+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:keyboard"}
+{"level":"info","time":"2020-03-31T13:49:04.996+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T13:49:04.996+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T13:49:04.996+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T13:50:10.612+0800","caller":"D:/代码/公用/zui/pkg/logging/logging.go:71","msg":"log 初始化成功"}
+{"level":"info","time":"2020-03-31T13:50:12.626+0800","caller":"D:/代码/公用/zui/schedule.go:90","msg":"action:RegisterToDaemon"}
+{"level":"info","time":"2020-03-31T13:50:17.298+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n \"Action\":\"keyboard\",\n \"Key\":\"enter\"\n}\n\n"}
+{"level":"info","time":"2020-03-31T13:50:17.298+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:keyboard"}
+{"level":"info","time":"2020-03-31T13:50:17.298+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T13:50:17.298+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T13:50:17.299+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T13:50:28.334+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n \"Action\":\"keyboard\",\n \"Key\":\"enter\"\n}\n\n"}
+{"level":"info","time":"2020-03-31T13:50:28.334+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:keyboard"}
+{"level":"info","time":"2020-03-31T13:50:28.334+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T13:50:28.334+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T13:50:28.335+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T13:50:32.389+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n \"Action\":\"keyboard\",\n \"Key\":\"enter\"\n}\n\n"}
+{"level":"info","time":"2020-03-31T13:50:32.389+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:keyboard"}
+{"level":"info","time":"2020-03-31T13:50:32.389+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T13:50:32.391+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T13:50:32.393+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T13:52:01.897+0800","caller":"D:/代码/公用/zui/pkg/logging/logging.go:71","msg":"log 初始化成功"}
+{"level":"info","time":"2020-03-31T13:52:03.898+0800","caller":"D:/代码/公用/zui/schedule.go:90","msg":"action:RegisterToDaemon"}
+{"level":"info","time":"2020-03-31T13:52:06.595+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n \"Action\":\"keyboard\",\n \"Key\":\"enter\"\n}\n\n"}
+{"level":"info","time":"2020-03-31T13:52:06.596+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:keyboard"}
+{"level":"info","time":"2020-03-31T13:52:06.613+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T13:52:06.614+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T13:52:06.615+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T13:52:22.766+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n \"Action\":\"keyboard\",\n \"Key\":\"F1\"\n}\n\n"}
+{"level":"info","time":"2020-03-31T13:52:22.767+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:keyboard"}
+{"level":"info","time":"2020-03-31T13:52:22.772+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T13:52:22.772+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T13:52:22.772+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T13:52:26.464+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n \"Action\":\"keyboard\",\n \"Key\":\"F1\"\n}\n\n"}
+{"level":"info","time":"2020-03-31T13:52:26.466+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:keyboard"}
+{"level":"info","time":"2020-03-31T13:52:26.471+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T13:52:26.471+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T13:52:26.472+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T13:53:06.859+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n \"Action\":\"keyboard\",\n \"Key\":\"W\"\n}\n\n"}
+{"level":"info","time":"2020-03-31T13:53:06.859+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:keyboard"}
+{"level":"info","time":"2020-03-31T13:53:06.880+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T13:53:06.880+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T13:53:06.883+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T13:53:18.615+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n \"Action\":\"keyboard\",\n \"Key\":\"w\"\n}\n\n"}
+{"level":"info","time":"2020-03-31T13:53:18.616+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:keyboard"}
+{"level":"info","time":"2020-03-31T13:53:18.632+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T13:53:18.633+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T13:53:18.633+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T13:53:25.752+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n \"Action\":\"keyboard\",\n \"Key\":\"w\"\n}\n\n"}
+{"level":"info","time":"2020-03-31T13:53:25.754+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:keyboard"}
+{"level":"info","time":"2020-03-31T13:53:25.771+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T13:53:25.772+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T13:53:25.772+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T13:53:58.164+0800","caller":"D:/代码/公用/zui/pkg/logging/logging.go:71","msg":"log 初始化成功"}
+{"level":"info","time":"2020-03-31T13:54:00.165+0800","caller":"D:/代码/公用/zui/schedule.go:90","msg":"action:RegisterToDaemon"}
+{"level":"info","time":"2020-03-31T13:54:06.911+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n \"Action\":\"keyboard\",\n \"Key\":\"alt+w\"\n}\n\n"}
+{"level":"info","time":"2020-03-31T13:54:06.911+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:keyboard"}
+{"level":"info","time":"2020-03-31T13:54:06.917+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T13:54:06.917+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T13:54:06.918+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T13:55:35.996+0800","caller":"D:/代码/公用/zui/pkg/logging/logging.go:71","msg":"log 初始化成功"}
+{"level":"info","time":"2020-03-31T13:55:37.996+0800","caller":"D:/代码/公用/zui/schedule.go:90","msg":"action:RegisterToDaemon"}
+{"level":"info","time":"2020-03-31T13:55:50.500+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n \"Action\":\"keyboard\",\n \"Key\":\"alt+w\"\n}\n\n"}
+{"level":"info","time":"2020-03-31T13:55:50.502+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:keyboard"}
+{"level":"info","time":"2020-03-31T13:56:30.509+0800","caller":"D:/代码/公用/zui/pkg/logging/logging.go:71","msg":"log 初始化成功"}
+{"level":"info","time":"2020-03-31T13:56:32.510+0800","caller":"D:/代码/公用/zui/schedule.go:90","msg":"action:RegisterToDaemon"}
+{"level":"info","time":"2020-03-31T13:56:32.511+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n\t\"Action\":\"keyboard\",\n\t\"Key\":\"alt+f4\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T13:56:32.511+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:keyboard"}
+{"level":"info","time":"2020-03-31T13:58:28.081+0800","caller":"D:/代码/公用/zui/pkg/logging/logging.go:71","msg":"log 初始化成功"}
+{"level":"info","time":"2020-03-31T13:58:30.083+0800","caller":"D:/代码/公用/zui/schedule.go:90","msg":"action:RegisterToDaemon"}
+{"level":"info","time":"2020-03-31T13:58:30.084+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n\t\"Action\":\"keyboard\",\n\t\"Key\":\"1\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T13:58:30.087+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:keyboard"}
+{"level":"info","time":"2020-03-31T13:58:30.088+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T13:58:30.088+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T13:58:30.089+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T13:58:31.243+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n\t\"Action\":\"keyboard\",\n\t\"Key\":\"1\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T13:58:31.244+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:keyboard"}
+{"level":"info","time":"2020-03-31T13:58:31.249+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T13:58:31.249+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T13:58:31.250+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T13:58:31.838+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n\t\"Action\":\"keyboard\",\n\t\"Key\":\"1\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T13:58:31.839+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:keyboard"}
+{"level":"info","time":"2020-03-31T13:58:31.846+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T13:58:31.847+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T13:58:31.847+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T13:58:32.180+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n\t\"Action\":\"keyboard\",\n\t\"Key\":\"1\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T13:58:32.182+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:keyboard"}
+{"level":"info","time":"2020-03-31T13:58:32.187+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T13:58:32.189+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T13:58:32.190+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T13:58:32.438+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n\t\"Action\":\"keyboard\",\n\t\"Key\":\"1\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T13:58:32.439+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:keyboard"}
+{"level":"info","time":"2020-03-31T13:58:32.443+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T13:58:32.444+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T13:58:32.445+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T13:58:32.656+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n\t\"Action\":\"keyboard\",\n\t\"Key\":\"1\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T13:58:32.657+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:keyboard"}
+{"level":"info","time":"2020-03-31T13:58:32.662+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T13:58:32.663+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T13:58:32.663+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T13:58:32.892+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n\t\"Action\":\"keyboard\",\n\t\"Key\":\"1\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T13:58:32.895+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:keyboard"}
+{"level":"info","time":"2020-03-31T13:58:32.898+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T13:58:32.899+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T13:58:32.899+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T13:58:33.103+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n\t\"Action\":\"keyboard\",\n\t\"Key\":\"1\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T13:58:33.104+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:keyboard"}
+{"level":"info","time":"2020-03-31T13:58:33.108+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T13:58:33.110+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T13:58:33.112+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T15:55:31.483+0800","caller":"D:/代码/公用/zui/pkg/logging/logging.go:71","msg":"log 初始化成功"}
+{"level":"info","time":"2020-03-31T16:26:00.334+0800","caller":"D:/代码/公用/zui/pkg/logging/logging.go:71","msg":"log 初始化成功"}
+{"level":"info","time":"2020-03-31T16:26:02.335+0800","caller":"D:/代码/公用/zui/schedule.go:90","msg":"action:RegisterToDaemon"}
+{"level":"warn","time":"2020-03-31T16:26:12.409+0800","caller":"D:/代码/公用/zui/schedule.go:198","msg":"recv message field:(read tcp 127.0.0.1:49385->127.0.0.1:5678: wsarecv: An existing connection was forcibly closed by the remote host.)","stacktrace":"main.(*Client).ReadPump\n\tD:/代码/公用/zui/schedule.go:198"}
+{"level":"info","time":"2020-03-31T16:26:16.414+0800","caller":"D:/代码/公用/zui/schedule.go:90","msg":"action:RegisterToDaemon"}
+{"level":"info","time":"2020-03-31T16:27:07.636+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":2412\n\t},\n\t\"Key\":\"h+cmd\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T16:27:07.637+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T16:27:07.637+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T16:27:07.637+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T16:27:07.638+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T16:27:28.423+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":8128\n\t},\n\t\"Key\":\"h+cmd\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T16:27:28.424+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T16:27:28.425+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T16:27:28.426+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T16:27:28.427+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T16:27:29.169+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":8128\n\t},\n\t\"Key\":\"h+cmd\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T16:27:29.174+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T16:27:29.174+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T16:27:29.175+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T16:27:29.176+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T16:27:29.360+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":8128\n\t},\n\t\"Key\":\"h+cmd\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T16:27:29.361+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T16:27:29.362+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T16:27:29.363+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T16:27:29.363+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T16:27:29.547+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":8128\n\t},\n\t\"Key\":\"h+cmd\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T16:27:29.548+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T16:27:29.550+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T16:27:29.550+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T16:27:29.550+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T16:28:46.368+0800","caller":"D:/代码/公用/zui/schedule.go:207","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":8128\n\t},\n\t\"Key\":\"h+cmd\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T16:28:46.369+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T16:28:46.370+0800","caller":"D:/代码/公用/zui/schedule.go:166","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T16:28:46.371+0800","caller":"D:/代码/公用/zui/schedule.go:262","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T16:28:46.371+0800","caller":"D:/代码/公用/zui/schedule.go:282","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T16:28:55.375+0800","caller":"D:/代码/公用/zui/pkg/logging/logging.go:71","msg":"log 初始化成功"}
+{"level":"info","time":"2020-03-31T16:28:57.392+0800","caller":"D:/代码/公用/zui/schedule.go:90","msg":"action:RegisterToDaemon"}
+{"level":"info","time":"2020-03-31T16:28:57.393+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":8128\n\t},\n\t\"Key\":\"h+cmd\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T16:28:57.394+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T16:28:57.394+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :8128"}
+{"level":"info","time":"2020-03-31T16:28:57.396+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T16:28:57.396+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T16:28:57.396+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T16:28:57.745+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":8128\n\t},\n\t\"Key\":\"h+cmd\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T16:28:57.745+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T16:28:57.745+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :8128"}
+{"level":"info","time":"2020-03-31T16:28:57.746+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T16:28:57.747+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T16:28:57.747+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T16:28:58.688+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":8128\n\t},\n\t\"Key\":\"h+cmd\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T16:28:58.688+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T16:28:58.689+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :8128"}
+{"level":"info","time":"2020-03-31T16:28:58.692+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T16:28:58.692+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T16:28:58.693+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T16:29:02.138+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":8128\n\t},\n\t\"Key\":\"h+cmd\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T16:29:02.138+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T16:29:02.138+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :8128"}
+{"level":"info","time":"2020-03-31T16:29:02.139+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T16:29:02.140+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T16:29:02.140+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T16:29:03.156+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":8128\n\t},\n\t\"Key\":\"h+cmd\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T16:29:03.156+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T16:29:03.156+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :8128"}
+{"level":"info","time":"2020-03-31T16:29:03.157+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T16:29:03.158+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T16:29:03.158+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T16:36:47.205+0800","caller":"D:/代码/公用/zui/pkg/logging/logging.go:71","msg":"log 初始化成功"}
+{"level":"info","time":"2020-03-31T16:36:49.206+0800","caller":"D:/代码/公用/zui/schedule.go:90","msg":"action:RegisterToDaemon"}
+{"level":"info","time":"2020-03-31T16:37:03.160+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":2412\n\t},\n\t\"Key\":\"h+cmd\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T16:37:03.160+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T16:37:03.160+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :2412"}
+{"level":"info","time":"2020-03-31T16:37:03.160+0800","caller":"D:/代码/公用/zui/schedule.go:350","msg":"activepid:2412"}
+{"level":"info","time":"2020-03-31T16:37:03.163+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T16:37:03.164+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T16:37:03.165+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T16:37:45.592+0800","caller":"D:/代码/公用/zui/pkg/logging/logging.go:71","msg":"log 初始化成功"}
+{"level":"info","time":"2020-03-31T16:37:47.593+0800","caller":"D:/代码/公用/zui/schedule.go:90","msg":"action:RegisterToDaemon"}
+{"level":"info","time":"2020-03-31T16:37:47.841+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":2412\n\t},\n\t\"Key\":\"h+cmd\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T16:37:47.841+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T16:37:47.844+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :2412"}
+{"level":"info","time":"2020-03-31T16:37:47.844+0800","caller":"D:/代码/公用/zui/schedule.go:350","msg":"activepid:2412"}
+{"level":"info","time":"2020-03-31T16:37:47.847+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T16:37:47.849+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T16:37:47.849+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T16:37:48.861+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":2412\n\t},\n\t\"Key\":\"h+cmd\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T16:37:48.863+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T16:37:48.865+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :2412"}
+{"level":"info","time":"2020-03-31T16:37:48.865+0800","caller":"D:/代码/公用/zui/schedule.go:350","msg":"activepid:2412"}
+{"level":"info","time":"2020-03-31T16:37:48.868+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T16:37:48.868+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T16:37:48.869+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T16:38:08.210+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":2400\n\t},\n\t\"Key\":\"h+cmd\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T16:38:08.210+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T16:38:08.211+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :2400"}
+{"level":"info","time":"2020-03-31T16:38:08.214+0800","caller":"D:/代码/公用/zui/schedule.go:350","msg":"activepid:2400"}
+{"level":"info","time":"2020-03-31T16:38:08.216+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T16:38:08.216+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T16:38:08.217+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T16:38:17.535+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":2556\n\t},\n\t\"Key\":\"h+cmd\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T16:38:17.535+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T16:38:17.536+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :2556"}
+{"level":"info","time":"2020-03-31T16:38:17.538+0800","caller":"D:/代码/公用/zui/schedule.go:350","msg":"activepid:2556"}
+{"level":"info","time":"2020-03-31T16:38:17.540+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T16:38:17.541+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T16:38:17.541+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T16:39:00.340+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":22420\n\t},\n\t\"Key\":\"h+cmd\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T16:39:00.342+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T16:39:00.344+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :22420"}
+{"level":"info","time":"2020-03-31T16:39:00.344+0800","caller":"D:/代码/公用/zui/schedule.go:350","msg":"activepid:22420"}
+{"level":"info","time":"2020-03-31T16:39:00.348+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T16:39:00.350+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T16:39:00.351+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T16:39:04.392+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":22420\n\t},\n\t\"Key\":\"h+cmd\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T16:39:04.393+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T16:39:04.393+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :22420"}
+{"level":"info","time":"2020-03-31T16:39:04.396+0800","caller":"D:/代码/公用/zui/schedule.go:350","msg":"activepid:22420"}
+{"level":"info","time":"2020-03-31T16:39:04.399+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T16:39:04.399+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T16:39:04.400+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T16:39:10.399+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":22420\n\t},\n\t\"Key\":\"h+cmd\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T16:39:10.399+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T16:39:10.399+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :22420"}
+{"level":"info","time":"2020-03-31T16:39:10.402+0800","caller":"D:/代码/公用/zui/schedule.go:350","msg":"activepid:22420"}
+{"level":"info","time":"2020-03-31T16:39:10.407+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T16:39:10.407+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T16:39:10.407+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T16:41:01.896+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":22420\n\t},\n\t\"Key\":\"h+cmd\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T16:41:01.898+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T16:41:01.899+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :22420"}
+{"level":"info","time":"2020-03-31T16:41:01.902+0800","caller":"D:/代码/公用/zui/schedule.go:350","msg":"activepid:22420"}
+{"level":"info","time":"2020-03-31T16:41:01.905+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T16:41:01.906+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T16:41:01.906+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T16:41:06.678+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":22420\n\t},\n\t\"Key\":\"h+cmd\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T16:41:06.682+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T16:41:06.685+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :22420"}
+{"level":"info","time":"2020-03-31T16:41:06.687+0800","caller":"D:/代码/公用/zui/schedule.go:350","msg":"activepid:22420"}
+{"level":"info","time":"2020-03-31T16:41:06.691+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T16:41:06.694+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T16:41:06.697+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T16:45:47.818+0800","caller":"D:/代码/公用/zui/pkg/logging/logging.go:71","msg":"log 初始化成功"}
+{"level":"info","time":"2020-03-31T16:45:49.818+0800","caller":"D:/代码/公用/zui/schedule.go:90","msg":"action:RegisterToDaemon"}
+{"level":"info","time":"2020-03-31T16:45:57.283+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":22420\n\t},\n\t\"Key\":\"h+cmd\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T16:45:57.284+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T16:45:57.287+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :22420"}
+{"level":"info","time":"2020-03-31T16:45:57.287+0800","caller":"D:/代码/公用/zui/schedule.go:350","msg":"activepid:22420"}
+{"level":"info","time":"2020-03-31T16:45:57.293+0800","caller":"D:/代码/公用/zui/schedule.go:353","msg":"handle:%!s(int=132870)"}
+{"level":"info","time":"2020-03-31T16:45:57.295+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T16:45:57.297+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T16:45:57.297+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T16:46:00.282+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":22420\n\t},\n\t\"Key\":\"h+cmd\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T16:46:00.283+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T16:46:00.285+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :22420"}
+{"level":"info","time":"2020-03-31T16:46:00.286+0800","caller":"D:/代码/公用/zui/schedule.go:350","msg":"activepid:22420"}
+{"level":"info","time":"2020-03-31T16:46:00.287+0800","caller":"D:/代码/公用/zui/schedule.go:353","msg":"handle:%!s(int=132870)"}
+{"level":"info","time":"2020-03-31T16:46:00.292+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T16:46:00.294+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T16:46:00.295+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T16:46:01.226+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":22420\n\t},\n\t\"Key\":\"h+cmd\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T16:46:01.227+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T16:46:01.230+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :22420"}
+{"level":"info","time":"2020-03-31T16:46:01.230+0800","caller":"D:/代码/公用/zui/schedule.go:350","msg":"activepid:22420"}
+{"level":"info","time":"2020-03-31T16:46:01.233+0800","caller":"D:/代码/公用/zui/schedule.go:353","msg":"handle:%!s(int=132870)"}
+{"level":"info","time":"2020-03-31T16:46:01.236+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T16:46:01.237+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T16:46:01.241+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T16:46:01.682+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":22420\n\t},\n\t\"Key\":\"h+cmd\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T16:46:01.684+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T16:46:01.687+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :22420"}
+{"level":"info","time":"2020-03-31T16:46:01.688+0800","caller":"D:/代码/公用/zui/schedule.go:350","msg":"activepid:22420"}
+{"level":"info","time":"2020-03-31T16:46:01.694+0800","caller":"D:/代码/公用/zui/schedule.go:353","msg":"handle:%!s(int=132870)"}
+{"level":"info","time":"2020-03-31T16:46:01.699+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T16:46:01.701+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T16:46:01.702+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T16:46:01.957+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":22420\n\t},\n\t\"Key\":\"h+cmd\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T16:46:01.958+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T16:46:01.960+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :22420"}
+{"level":"info","time":"2020-03-31T16:46:01.960+0800","caller":"D:/代码/公用/zui/schedule.go:350","msg":"activepid:22420"}
+{"level":"info","time":"2020-03-31T16:46:01.961+0800","caller":"D:/代码/公用/zui/schedule.go:353","msg":"handle:%!s(int=132870)"}
+{"level":"info","time":"2020-03-31T16:46:01.962+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T16:46:01.963+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T16:46:01.963+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T16:46:02.115+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":22420\n\t},\n\t\"Key\":\"h+cmd\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T16:46:02.116+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T16:46:02.116+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :22420"}
+{"level":"info","time":"2020-03-31T16:46:02.120+0800","caller":"D:/代码/公用/zui/schedule.go:350","msg":"activepid:22420"}
+{"level":"info","time":"2020-03-31T16:46:02.121+0800","caller":"D:/代码/公用/zui/schedule.go:353","msg":"handle:%!s(int=132870)"}
+{"level":"info","time":"2020-03-31T16:46:02.121+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T16:46:02.122+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T16:46:02.122+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T16:46:02.279+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":22420\n\t},\n\t\"Key\":\"h+cmd\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T16:46:02.280+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T16:46:02.284+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :22420"}
+{"level":"info","time":"2020-03-31T16:46:02.285+0800","caller":"D:/代码/公用/zui/schedule.go:350","msg":"activepid:22420"}
+{"level":"info","time":"2020-03-31T16:46:02.287+0800","caller":"D:/代码/公用/zui/schedule.go:353","msg":"handle:%!s(int=132870)"}
+{"level":"info","time":"2020-03-31T16:46:02.288+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T16:46:02.293+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T16:46:02.293+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T16:46:02.715+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":22420\n\t},\n\t\"Key\":\"h+cmd\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T16:46:02.719+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T16:46:02.724+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :22420"}
+{"level":"info","time":"2020-03-31T16:46:02.725+0800","caller":"D:/代码/公用/zui/schedule.go:350","msg":"activepid:22420"}
+{"level":"info","time":"2020-03-31T16:46:02.728+0800","caller":"D:/代码/公用/zui/schedule.go:353","msg":"handle:%!s(int=132870)"}
+{"level":"info","time":"2020-03-31T16:46:02.732+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T16:46:02.736+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T16:46:02.737+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T16:47:41.688+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":22420\n\t},\n\t\"Key\":\"h+cmd\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T16:47:41.690+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T16:47:41.691+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :22420"}
+{"level":"info","time":"2020-03-31T16:47:41.694+0800","caller":"D:/代码/公用/zui/schedule.go:350","msg":"activepid:22420"}
+{"level":"info","time":"2020-03-31T16:47:41.698+0800","caller":"D:/代码/公用/zui/schedule.go:353","msg":"handle:%!s(int=132870)"}
+{"level":"info","time":"2020-03-31T16:47:41.701+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T16:47:41.703+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T16:47:41.706+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T16:47:49.126+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":22420\n\t},\n\t\"Key\":\"h+cmd\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T16:47:49.128+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T16:47:49.131+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :22420"}
+{"level":"info","time":"2020-03-31T16:47:49.131+0800","caller":"D:/代码/公用/zui/schedule.go:350","msg":"activepid:22420"}
+{"level":"info","time":"2020-03-31T16:47:49.133+0800","caller":"D:/代码/公用/zui/schedule.go:353","msg":"handle:%!s(int=132870)"}
+{"level":"info","time":"2020-03-31T16:47:49.134+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T16:47:49.135+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T16:47:49.137+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T16:47:49.530+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":22420\n\t},\n\t\"Key\":\"h+cmd\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T16:47:49.532+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T16:47:49.537+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :22420"}
+{"level":"info","time":"2020-03-31T16:47:49.539+0800","caller":"D:/代码/公用/zui/schedule.go:350","msg":"activepid:22420"}
+{"level":"info","time":"2020-03-31T16:47:49.540+0800","caller":"D:/代码/公用/zui/schedule.go:353","msg":"handle:%!s(int=132870)"}
+{"level":"info","time":"2020-03-31T16:47:49.542+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T16:47:49.544+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T16:47:49.545+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T16:47:49.697+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":22420\n\t},\n\t\"Key\":\"h+cmd\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T16:47:49.698+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T16:47:49.698+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :22420"}
+{"level":"info","time":"2020-03-31T16:47:49.702+0800","caller":"D:/代码/公用/zui/schedule.go:350","msg":"activepid:22420"}
+{"level":"info","time":"2020-03-31T16:47:49.704+0800","caller":"D:/代码/公用/zui/schedule.go:353","msg":"handle:%!s(int=132870)"}
+{"level":"info","time":"2020-03-31T16:47:49.706+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T16:47:49.707+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T16:47:49.708+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T16:47:49.929+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":22420\n\t},\n\t\"Key\":\"h+cmd\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T16:47:49.930+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T16:47:49.933+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :22420"}
+{"level":"info","time":"2020-03-31T16:47:49.933+0800","caller":"D:/代码/公用/zui/schedule.go:350","msg":"activepid:22420"}
+{"level":"info","time":"2020-03-31T16:47:49.936+0800","caller":"D:/代码/公用/zui/schedule.go:353","msg":"handle:%!s(int=132870)"}
+{"level":"info","time":"2020-03-31T16:47:49.938+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T16:47:49.938+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T16:47:49.939+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T16:48:52.299+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n \"Action\":\"active\",\n \"Data\":{\n  \"Pid\":22420\n },\n \"Key\":\"h+cmd\"\n}\n\n"}
+{"level":"info","time":"2020-03-31T16:48:52.300+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T16:48:52.302+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :22420"}
+{"level":"info","time":"2020-03-31T16:48:52.302+0800","caller":"D:/代码/公用/zui/schedule.go:350","msg":"activepid:22420"}
+{"level":"info","time":"2020-03-31T16:48:52.305+0800","caller":"D:/代码/公用/zui/schedule.go:353","msg":"handle:%!s(int=1248438)"}
+{"level":"info","time":"2020-03-31T16:48:52.306+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T16:48:52.306+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T16:48:52.306+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T16:49:02.921+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n \"Action\":\"active\",\n \"Data\":{\n  \"Pid\":22420\n },\n \"Key\":\"h+cmd\"\n}\n\n"}
+{"level":"info","time":"2020-03-31T16:49:02.923+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T16:49:02.923+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :22420"}
+{"level":"info","time":"2020-03-31T16:49:02.926+0800","caller":"D:/代码/公用/zui/schedule.go:350","msg":"activepid:22420"}
+{"level":"info","time":"2020-03-31T16:49:02.928+0800","caller":"D:/代码/公用/zui/schedule.go:353","msg":"handle:%!s(int=460640)"}
+{"level":"info","time":"2020-03-31T16:49:02.931+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T16:49:02.931+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T16:49:02.931+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T16:49:05.264+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n \"Action\":\"active\",\n \"Data\":{\n  \"Pid\":22420\n },\n \"Key\":\"h+cmd\"\n}\n\n"}
+{"level":"info","time":"2020-03-31T16:49:05.265+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T16:49:05.265+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :22420"}
+{"level":"info","time":"2020-03-31T16:49:05.268+0800","caller":"D:/代码/公用/zui/schedule.go:350","msg":"activepid:22420"}
+{"level":"info","time":"2020-03-31T16:49:05.269+0800","caller":"D:/代码/公用/zui/schedule.go:353","msg":"handle:%!s(int=460640)"}
+{"level":"info","time":"2020-03-31T16:49:05.271+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T16:49:05.271+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T16:49:05.271+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T16:49:08.080+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n \"Action\":\"active\",\n \"Data\":{\n  \"Pid\":22420\n },\n \"Key\":\"h+cmd\"\n}\n\n"}
+{"level":"info","time":"2020-03-31T16:49:08.081+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T16:49:08.081+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :22420"}
+{"level":"info","time":"2020-03-31T16:49:08.084+0800","caller":"D:/代码/公用/zui/schedule.go:350","msg":"activepid:22420"}
+{"level":"info","time":"2020-03-31T16:49:08.085+0800","caller":"D:/代码/公用/zui/schedule.go:353","msg":"handle:%!s(int=460640)"}
+{"level":"info","time":"2020-03-31T16:49:08.085+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T16:49:08.086+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T16:49:08.086+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T16:49:09.865+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n \"Action\":\"active\",\n \"Data\":{\n  \"Pid\":22420\n },\n \"Key\":\"h+cmd\"\n}\n\n"}
+{"level":"info","time":"2020-03-31T16:49:09.866+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T16:49:09.866+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :22420"}
+{"level":"info","time":"2020-03-31T16:49:09.869+0800","caller":"D:/代码/公用/zui/schedule.go:350","msg":"activepid:22420"}
+{"level":"info","time":"2020-03-31T16:49:09.870+0800","caller":"D:/代码/公用/zui/schedule.go:353","msg":"handle:%!s(int=460640)"}
+{"level":"info","time":"2020-03-31T16:49:09.871+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T16:49:09.874+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T16:49:09.875+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T16:49:15.926+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n \"Action\":\"active\",\n \"Data\":{\n  \"Pid\":22420\n },\n \"Key\":\"h+cmd\"\n}\n\n"}
+{"level":"info","time":"2020-03-31T16:49:15.927+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T16:49:15.927+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :22420"}
+{"level":"info","time":"2020-03-31T16:49:15.932+0800","caller":"D:/代码/公用/zui/schedule.go:350","msg":"activepid:22420"}
+{"level":"info","time":"2020-03-31T16:49:15.934+0800","caller":"D:/代码/公用/zui/schedule.go:353","msg":"handle:%!s(int=3739584)"}
+{"level":"info","time":"2020-03-31T16:49:15.934+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T16:49:15.935+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T16:49:15.936+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T17:10:50.195+0800","caller":"D:/代码/公用/zui/pkg/logging/logging.go:71","msg":"log 初始化成功"}
+{"level":"info","time":"2020-03-31T17:10:52.196+0800","caller":"D:/代码/公用/zui/schedule.go:90","msg":"action:RegisterToDaemon"}
+{"level":"info","time":"2020-03-31T17:10:57.937+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"keyboard\",\n\t\"Data\":{\n\t\t\"Pid\":11696\n\t},\n\t\"Key\":\"3\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T17:10:57.938+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:keyboard"}
+{"level":"info","time":"2020-03-31T17:10:57.950+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T17:10:57.953+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T17:10:57.955+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T17:10:57.978+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"keyboard\",\n\t\"Data\":{\n\t\t\"Pid\":11696\n\t},\n\t\"Key\":\"3\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T17:10:58.063+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:keyboard"}
+{"level":"info","time":"2020-03-31T17:10:58.123+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T17:10:58.125+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"keyboard\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T17:10:58.127+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T17:11:13.950+0800","caller":"D:/代码/公用/zui/pkg/logging/logging.go:71","msg":"log 初始化成功"}
+{"level":"info","time":"2020-03-31T17:11:15.951+0800","caller":"D:/代码/公用/zui/schedule.go:90","msg":"action:RegisterToDaemon"}
+{"level":"info","time":"2020-03-31T17:11:24.200+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":11696\n\t},\n\t\"Key\":\"3\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T17:11:24.202+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T17:11:24.203+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :11696"}
+{"level":"info","time":"2020-03-31T17:11:24.209+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":11696\n\t},\n\t\"Key\":\"3\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T17:11:24.211+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T17:11:24.218+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :11696"}
+{"level":"info","time":"2020-03-31T17:11:24.219+0800","caller":"D:/代码/公用/zui/schedule.go:350","msg":"activepid:11696"}
+{"level":"info","time":"2020-03-31T17:11:24.221+0800","caller":"D:/代码/公用/zui/schedule.go:353","msg":"handle:%!s(int=132870)"}
+{"level":"info","time":"2020-03-31T17:11:24.224+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T17:11:24.224+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T17:11:24.225+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T17:11:25.845+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T17:11:25.847+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T17:11:25.849+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T17:11:31.357+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":11696\n\t},\n\t\"Key\":\"3\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T17:11:31.356+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":11696\n\t},\n\t\"Key\":\"3\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T17:11:31.360+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T17:11:31.358+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T17:11:31.366+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :11696"}
+{"level":"info","time":"2020-03-31T17:11:31.366+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :11696"}
+{"level":"info","time":"2020-03-31T17:11:31.368+0800","caller":"D:/代码/公用/zui/schedule.go:350","msg":"activepid:11696"}
+{"level":"info","time":"2020-03-31T17:11:31.375+0800","caller":"D:/代码/公用/zui/schedule.go:353","msg":"handle:%!s(int=132870)"}
+{"level":"info","time":"2020-03-31T17:11:31.378+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T17:11:31.378+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T17:11:31.379+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T17:11:32.876+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":11696\n\t},\n\t\"Key\":\"3\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T17:11:32.877+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T17:11:32.879+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :11696"}
+{"level":"info","time":"2020-03-31T17:11:32.888+0800","caller":"D:/代码/公用/zui/schedule.go:350","msg":"activepid:11696"}
+{"level":"info","time":"2020-03-31T17:11:32.891+0800","caller":"D:/代码/公用/zui/schedule.go:353","msg":"handle:%!s(int=132870)"}
+{"level":"info","time":"2020-03-31T17:11:32.891+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T17:11:32.892+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T17:11:32.892+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T17:11:33.018+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T17:11:33.020+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T17:11:33.023+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":11696\n\t},\n\t\"Key\":\"3\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T17:11:33.023+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T17:11:33.023+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T17:11:33.024+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :11696"}
+{"level":"info","time":"2020-03-31T17:11:33.945+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":11696\n\t},\n\t\"Key\":\"3\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T17:11:33.945+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T17:11:33.948+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :11696"}
+{"level":"info","time":"2020-03-31T17:11:33.948+0800","caller":"D:/代码/公用/zui/schedule.go:350","msg":"activepid:11696"}
+{"level":"info","time":"2020-03-31T17:11:33.951+0800","caller":"D:/代码/公用/zui/schedule.go:353","msg":"handle:%!s(int=132870)"}
+{"level":"info","time":"2020-03-31T17:11:33.953+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T17:11:33.954+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T17:11:33.955+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T17:11:34.120+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":11696\n\t},\n\t\"Key\":\"3\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T17:11:34.122+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T17:11:34.125+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :11696"}
+{"level":"info","time":"2020-03-31T17:11:34.125+0800","caller":"D:/代码/公用/zui/schedule.go:350","msg":"activepid:11696"}
+{"level":"info","time":"2020-03-31T17:11:34.128+0800","caller":"D:/代码/公用/zui/schedule.go:353","msg":"handle:%!s(int=132870)"}
+{"level":"info","time":"2020-03-31T17:11:34.130+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T17:11:34.130+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T17:11:34.132+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T17:11:34.292+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":11696\n\t},\n\t\"Key\":\"3\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T17:11:34.293+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T17:11:34.297+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :11696"}
+{"level":"info","time":"2020-03-31T17:11:34.298+0800","caller":"D:/代码/公用/zui/schedule.go:350","msg":"activepid:11696"}
+{"level":"info","time":"2020-03-31T17:11:34.301+0800","caller":"D:/代码/公用/zui/schedule.go:353","msg":"handle:%!s(int=132870)"}
+{"level":"info","time":"2020-03-31T17:11:34.301+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T17:11:34.303+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T17:11:34.303+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T17:11:34.776+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T17:11:34.777+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T17:11:34.777+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":11696\n\t},\n\t\"Key\":\"3\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T17:11:34.781+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T17:11:34.781+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T17:11:34.782+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :11696"}
+{"level":"info","time":"2020-03-31T17:11:35.271+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":11696\n\t},\n\t\"Key\":\"3\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T17:11:35.273+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T17:11:35.275+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :11696"}
+{"level":"info","time":"2020-03-31T17:11:35.275+0800","caller":"D:/代码/公用/zui/schedule.go:350","msg":"activepid:11696"}
+{"level":"info","time":"2020-03-31T17:11:35.277+0800","caller":"D:/代码/公用/zui/schedule.go:353","msg":"handle:%!s(int=132870)"}
+{"level":"info","time":"2020-03-31T17:11:35.278+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T17:11:35.279+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T17:11:35.279+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T17:11:36.495+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T17:11:36.495+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T17:11:36.498+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":11696\n\t},\n\t\"Key\":\"3\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T17:11:36.500+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T17:11:36.499+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T17:11:36.500+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :11696"}
+{"level":"info","time":"2020-03-31T17:11:38.636+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T17:11:38.637+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T17:11:38.637+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":11696\n\t},\n\t\"Key\":\"3\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T17:11:38.637+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T17:11:38.639+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T17:11:38.640+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :11696"}
+{"level":"info","time":"2020-03-31T17:11:41.061+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T17:11:41.062+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T17:11:41.065+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":11696\n\t},\n\t\"Key\":\"3\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T17:11:41.068+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T17:11:41.069+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T17:11:41.075+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :11696"}
+{"level":"info","time":"2020-03-31T17:11:43.208+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T17:11:43.209+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T17:11:43.210+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T17:11:52.504+0800","caller":"D:/代码/公用/zui/pkg/logging/logging.go:71","msg":"log 初始化成功"}
+{"level":"info","time":"2020-03-31T17:11:54.233+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":11696\n\t},\n\t\"Key\":\"3\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T17:11:54.234+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T17:11:54.234+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :11696"}
+{"level":"info","time":"2020-03-31T17:11:54.237+0800","caller":"D:/代码/公用/zui/schedule.go:350","msg":"activepid:11696"}
+{"level":"info","time":"2020-03-31T17:11:54.240+0800","caller":"D:/代码/公用/zui/schedule.go:353","msg":"handle:%!s(int=132870)"}
+{"level":"info","time":"2020-03-31T17:11:54.242+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T17:11:54.242+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T17:11:54.243+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T17:11:54.504+0800","caller":"D:/代码/公用/zui/schedule.go:90","msg":"action:RegisterToDaemon"}
+{"level":"info","time":"2020-03-31T17:11:54.505+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":11696\n\t},\n\t\"Key\":\"3\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T17:11:54.505+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T17:11:54.508+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :11696"}
+{"level":"info","time":"2020-03-31T17:11:55.502+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":11696\n\t},\n\t\"Key\":\"3\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T17:11:55.507+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T17:11:55.507+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :11696"}
+{"level":"info","time":"2020-03-31T17:11:55.508+0800","caller":"D:/代码/公用/zui/schedule.go:350","msg":"activepid:11696"}
+{"level":"info","time":"2020-03-31T17:11:55.510+0800","caller":"D:/代码/公用/zui/schedule.go:353","msg":"handle:%!s(int=132870)"}
+{"level":"info","time":"2020-03-31T17:11:55.511+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T17:11:55.512+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T17:11:55.514+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T17:11:56.180+0800","caller":"D:/代码/公用/zui/schedule.go:354","msg":"handle:%!s(int=132870)"}
+{"level":"info","time":"2020-03-31T17:11:56.184+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T17:11:56.185+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T17:11:56.185+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":11696\n\t},\n\t\"Key\":\"3\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T17:11:56.186+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T17:11:56.186+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T17:11:56.187+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :11696"}
+{"level":"info","time":"2020-03-31T17:11:56.480+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":11696\n\t},\n\t\"Key\":\"3\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T17:11:56.482+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T17:11:56.485+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :11696"}
+{"level":"info","time":"2020-03-31T17:11:56.486+0800","caller":"D:/代码/公用/zui/schedule.go:350","msg":"activepid:11696"}
+{"level":"info","time":"2020-03-31T17:11:56.487+0800","caller":"D:/代码/公用/zui/schedule.go:353","msg":"handle:%!s(int=132870)"}
+{"level":"info","time":"2020-03-31T17:11:56.488+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T17:11:56.489+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T17:11:56.490+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T17:11:57.885+0800","caller":"D:/代码/公用/zui/schedule.go:354","msg":"handle:%!s(int=132870)"}
+{"level":"info","time":"2020-03-31T17:11:57.889+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T17:11:57.890+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T17:11:57.891+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T17:11:57.891+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":11696\n\t},\n\t\"Key\":\"3\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T17:11:57.892+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T17:11:57.893+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :11696"}
+{"level":"info","time":"2020-03-31T17:11:57.928+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":11696\n\t},\n\t\"Key\":\"3\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T17:11:57.929+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T17:11:57.930+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :11696"}
+{"level":"info","time":"2020-03-31T17:11:57.932+0800","caller":"D:/代码/公用/zui/schedule.go:350","msg":"activepid:11696"}
+{"level":"info","time":"2020-03-31T17:11:57.936+0800","caller":"D:/代码/公用/zui/schedule.go:353","msg":"handle:%!s(int=132870)"}
+{"level":"info","time":"2020-03-31T17:11:57.936+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T17:11:57.937+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T17:11:57.939+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T17:11:58.513+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":11696\n\t},\n\t\"Key\":\"3\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T17:11:58.514+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T17:11:58.516+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :11696"}
+{"level":"info","time":"2020-03-31T17:11:58.517+0800","caller":"D:/代码/公用/zui/schedule.go:350","msg":"activepid:11696"}
+{"level":"info","time":"2020-03-31T17:11:58.520+0800","caller":"D:/代码/公用/zui/schedule.go:353","msg":"handle:%!s(int=132870)"}
+{"level":"info","time":"2020-03-31T17:11:58.520+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T17:11:58.520+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T17:11:58.521+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T17:11:58.705+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":11696\n\t},\n\t\"Key\":\"3\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T17:11:58.706+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T17:11:58.708+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :11696"}
+{"level":"info","time":"2020-03-31T17:11:58.708+0800","caller":"D:/代码/公用/zui/schedule.go:350","msg":"activepid:11696"}
+{"level":"info","time":"2020-03-31T17:11:58.711+0800","caller":"D:/代码/公用/zui/schedule.go:353","msg":"handle:%!s(int=132870)"}
+{"level":"info","time":"2020-03-31T17:11:58.711+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T17:11:58.712+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T17:11:58.712+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T17:11:58.893+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":11696\n\t},\n\t\"Key\":\"3\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T17:11:58.894+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T17:11:58.896+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :11696"}
+{"level":"info","time":"2020-03-31T17:11:58.896+0800","caller":"D:/代码/公用/zui/schedule.go:350","msg":"activepid:11696"}
+{"level":"info","time":"2020-03-31T17:11:58.900+0800","caller":"D:/代码/公用/zui/schedule.go:353","msg":"handle:%!s(int=132870)"}
+{"level":"info","time":"2020-03-31T17:11:58.900+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T17:11:58.900+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T17:11:58.901+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T17:11:59.730+0800","caller":"D:/代码/公用/zui/schedule.go:354","msg":"handle:%!s(int=2757750)"}
+{"level":"info","time":"2020-03-31T17:11:59.732+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T17:11:59.735+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T17:11:59.735+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":11696\n\t},\n\t\"Key\":\"3\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T17:11:59.736+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T17:11:59.737+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T17:11:59.737+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :11696"}
+{"level":"info","time":"2020-03-31T17:12:01.649+0800","caller":"D:/代码/公用/zui/schedule.go:354","msg":"handle:%!s(int=1510272)"}
+{"level":"info","time":"2020-03-31T17:12:01.651+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T17:12:01.653+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T17:12:01.654+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":11696\n\t},\n\t\"Key\":\"3\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T17:12:01.655+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T17:12:01.655+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T17:12:01.656+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :11696"}
+{"level":"info","time":"2020-03-31T17:12:03.390+0800","caller":"D:/代码/公用/zui/schedule.go:354","msg":"handle:%!s(int=1510272)"}
+{"level":"info","time":"2020-03-31T17:12:03.393+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T17:12:03.395+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T17:12:03.395+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":11696\n\t},\n\t\"Key\":\"3\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T17:12:03.395+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T17:12:03.397+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T17:12:03.397+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :11696"}
+{"level":"info","time":"2020-03-31T17:12:05.074+0800","caller":"D:/代码/公用/zui/schedule.go:354","msg":"handle:%!s(int=1510272)"}
+{"level":"info","time":"2020-03-31T17:12:05.077+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T17:12:05.080+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T17:12:05.081+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":11696\n\t},\n\t\"Key\":\"3\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T17:12:05.081+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T17:12:05.081+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T17:12:05.082+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :11696"}
+{"level":"info","time":"2020-03-31T17:12:06.716+0800","caller":"D:/代码/公用/zui/schedule.go:354","msg":"handle:%!s(int=1510272)"}
+{"level":"info","time":"2020-03-31T17:12:06.722+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T17:12:06.722+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T17:12:06.723+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T17:12:27.569+0800","caller":"D:/代码/公用/zui/pkg/logging/logging.go:71","msg":"log 初始化成功"}
+{"level":"info","time":"2020-03-31T17:12:28.971+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":11696\n\t},\n\t\"Key\":\"3\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T17:12:28.973+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T17:12:28.978+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :11696"}
+{"level":"info","time":"2020-03-31T17:12:28.979+0800","caller":"D:/代码/公用/zui/schedule.go:350","msg":"activepid:11696"}
+{"level":"info","time":"2020-03-31T17:12:28.983+0800","caller":"D:/代码/公用/zui/schedule.go:353","msg":"handle:%!s(int=132870)"}
+{"level":"info","time":"2020-03-31T17:12:28.984+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T17:12:28.986+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T17:12:28.987+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T17:12:29.570+0800","caller":"D:/代码/公用/zui/schedule.go:90","msg":"action:RegisterToDaemon"}
+{"level":"info","time":"2020-03-31T17:12:29.571+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":11696\n\t},\n\t\"Key\":\"3\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T17:12:29.573+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T17:12:29.574+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :11696"}
+{"level":"info","time":"2020-03-31T17:12:30.970+0800","caller":"D:/代码/公用/zui/schedule.go:205","msg":"recv message:{\n\t\"Action\":\"active\",\n\t\"Data\":{\n\t\t\"Pid\":11696\n\t},\n\t\"Key\":\"3\"\n}\n\n\n\n"}
+{"level":"info","time":"2020-03-31T17:12:30.972+0800","caller":"D:/代码/公用/zui/schedule.go:120","msg":"action:active"}
+{"level":"info","time":"2020-03-31T17:12:30.975+0800","caller":"D:/代码/公用/zui/schedule.go:348","msg":"active wid :11696"}
+{"level":"info","time":"2020-03-31T17:12:30.975+0800","caller":"D:/代码/公用/zui/schedule.go:350","msg":"activepid:11696"}
+{"level":"info","time":"2020-03-31T17:12:30.978+0800","caller":"D:/代码/公用/zui/schedule.go:353","msg":"handle:%!s(int=132870)"}
+{"level":"info","time":"2020-03-31T17:12:30.979+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T17:12:30.979+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T17:12:30.979+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
