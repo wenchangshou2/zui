@@ -895,3 +895,13 @@
 {"level":"info","time":"2020-03-31T17:12:30.979+0800","caller":"D:/代码/公用/zui/schedule.go:164","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
 {"level":"info","time":"2020-03-31T17:12:30.979+0800","caller":"D:/代码/公用/zui/schedule.go:260","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
 {"level":"info","time":"2020-03-31T17:12:30.979+0800","caller":"D:/代码/公用/zui/schedule.go:280","msg":"send memoryMsg success"}
+{"level":"info","time":"2020-03-31T18:25:35.314+0800","caller":"D:/代码/公用/zui/pkg/logging/logging.go:71","msg":"log 初始化成功"}
+{"level":"info","time":"2020-03-31T18:25:37.315+0800","caller":"D:/代码/公用/zui/schedule.go:98","msg":"action:RegisterToDaemon"}
+{"level":"info","time":"2020-03-31T18:25:59.360+0800","caller":"D:/代码/公用/zui/schedule.go:213","msg":"recv message:\t{\n\t\t\"Action\":\"active\",\n\t\t\"Data\":{\n\t\t\t\"Pid\":11696\n\t\t},\n\t\t\"Key\":\"h+control\"\n\t}\n\t\n\n\n"}
+{"level":"info","time":"2020-03-31T18:25:59.362+0800","caller":"D:/代码/公用/zui/schedule.go:128","msg":"action:active"}
+{"level":"info","time":"2020-03-31T18:25:59.370+0800","caller":"D:/代码/公用/zui/schedule.go:357","msg":"active wid :11696"}
+{"level":"info","time":"2020-03-31T18:25:59.377+0800","caller":"D:/代码/公用/zui/schedule.go:364","msg":"handle:%!s(int=132870)"}
+{"level":"info","time":"2020-03-31T18:25:59.389+0800","caller":"D:/代码/公用/zui/schedule.go:171","msg":"send message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200}"}
+{"level":"info","time":"2020-03-31T18:25:59.399+0800","caller":"D:/代码/公用/zui/schedule.go:268","msg":"write message:{\"Action\":\"active\",\"message\":\"成功\",\"state\":200};write topic:/zebus"}
+{"level":"info","time":"2020-03-31T18:25:59.400+0800","caller":"D:/代码/公用/zui/schedule.go:288","msg":"send memoryMsg success"}
+{"level":"warn","time":"2020-03-31T18:33:38.528+0800","caller":"D:/代码/公用/zui/schedule.go:204","msg":"recv message field:(read tcp 127.0.0.1:54223->127.0.0.1:5678: wsarecv: An existing connection was forcibly closed by the remote host.)","stacktrace":"main.(*Client).ReadPump\n\tD:/代码/公用/zui/schedule.go:204"}

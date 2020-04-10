@@ -19,11 +19,19 @@ type Server struct {
 	Ip   string
 	Port int
 }
-
+type  Touch struct{
+	Bind string
+	Secret string
+	Cert string
+	Key string
+	Invert bool
+	Interval int
+}
 var (
 	cfg              *ini.File
 	AppSetting       = &App{}
 	ServerSetting    = &Server{}
+	TouchSetting = &Touch{}
 )
 
 func InitSetting(path string) (err error) {
@@ -32,6 +40,7 @@ func InitSetting(path string) (err error) {
 	}
 	mapTo("app", AppSetting)
 	mapTo("server", ServerSetting)
+	mapTo("Touch",TouchSetting)
 	return
 }
 func mapTo(section string, v interface{}) {

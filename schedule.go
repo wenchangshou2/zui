@@ -2,17 +2,17 @@ package main
 
 /*
 	#cgo windows LDFLAGS: -lgdi32 -luser32
-	#cgo windows,amd64 LDFLAGS: -L${SRCDIR}/cdeps/win64 -lpng -lz
-	#cgo windows,386 LDFLAGS: -L${SRCDIR}/cdeps/win32 -lpng -lz
-	#include "window/Window.h"
+	//#cgo windows,amd64 LDFLAGS: -L${SRCDIR}/cdeps/win64 -lpng -lz
+	//#cgo windows,386 LDFLAGS: -L${SRCDIR}/cdeps/win32 -lpng -lz
+	#include "window/window.h"
 */
 import "C"
-
 import (
 	"bytes"
 	"encoding/json"
 	"errors"
 	"fmt"
+	"github.com/wenchangshou2/zui/pkg/computer"
 	"strings"
 	"time"
 
@@ -24,6 +24,9 @@ import (
 	"github.com/wenchangshou2/zui/pkg/websocketWrap"
 	"gopkg.in/go-playground/validator.v9"
 )
+
+
+
 
 const (
 	// Time allowed to write a message to the peer.
@@ -38,6 +41,8 @@ const (
 	maxMessageSize = 1024 * 1024 * 1
 )
 
+
+
 //一个连接
 type Client struct {
 	Ip            string
@@ -48,6 +53,7 @@ type Client struct {
 	memoryMsgChan chan *zoolon_message.Message
 	websocketWrap.RecConn
 	lastReportLayoutInfoTime int64
+	backend Backend
 }
 
 var upgrader = websocket.Upgrader{
@@ -61,7 +67,6 @@ var (
 	validate *validator.Validate
 	G_Client *Client
 )
-
 
 func (c *Client) active(data []byte) error {
 	//var (
@@ -135,6 +140,8 @@ func (c *Client) binaryExecute(action string, SenderName string, data []byte) (m
 		err = c.activeByPid(data)
 	case "keyboard":
 		err = c.keyboard(data)
+	case "mouseClick":
+		err=c.mouseClick(data)
 	case "queryLayout":
 	default:
 		err = errors.New("未支持的操作111")
@@ -323,8 +330,11 @@ func (c *Client) move(data []byte) error {
 	if err := json.Unmarshal(data, &r); err != nil {
 		return err
 	}
+	fmt.Println("move",r.X,r.Y)
+	c.backend.PointerMove(int(r.X),int(r.Y))
+
 	//G_Backend.PointerMove(r.X,r.Y)
-	robotgo.Move(r.X, r.Y)
+	//robotgo.Move(r.X, r.Y)
 	return nil
 }
 
@@ -344,26 +354,21 @@ func (c *Client) activeByPid(data []byte) error {
 	var (
 		r form.ActiveWindowByPidRequestBody
 	)
+
 	if err := json.Unmarshal(data, &r); err != nil {
 		logging.G_Logger.Info("解析json 失败:" + string(data))
 		return err
 	}
 	if r.Data.Pid <= 0 {
-		logging.G_Logger.Info("pid 必须存在")
+		logging.G_Logger.Info("pid 必须存在1")
 		return errors.New("pid 必须存在")
 	}
-	C.active_force_pid()
-
-	logging.G_Logger.Info(fmt.Sprintf("active wid :%d", r.Data.Pid))
-	//processList, err := ps.Processes()
-	//logging.G_Logger.Info(fmt.Sprintf("activepid:%d",r.Data.Pid))
-	//robotgo.ActivePID(r.Data.Pid)
-	robotgo.ActivePID(r.Data.Pid)
-
-	handle := robotgo.GetHandle()
-	logging.G_Logger.Info(fmt.Sprintf("handle:%s", handle))
-	mdata := robotgo.GetActive()
-	robotgo.SetActive(mdata)
+	C.ActiveForcePid(C.int(r.Data.Pid))
+	x:=int(r.Data.X+(r.Data.Width/2))
+	y:=int(r.Data.Y+(r.Data.Width/2))
+	robotgo.Move(x,y)
+	robotgo.Click()
+	robotgo.Move(9999,9999)
 	return nil
 }
 
@@ -389,13 +394,35 @@ func (c *Client) keyboard(data []byte) error {
 	return nil
 }
 
+func (c *Client) mouseClick(data []byte) error {
+	var (
+		r form.MouseClickBody
+	)
+	if err:=json.Unmarshal(data,&r);err!=nil{
+		logging.G_Logger.Info("解析json 失败:" + string(data))
+		return err
+	}
+	if r.Key1<0{
+		return errors.New("按钮错误")
+	}
+	b:=true
+	if r.Key2==0{
+		b=false
+	}
+	G_Backend.PointerButton(computer.PointerButton(r.Key1),b)
+	return nil
+}
+
 //初始化调度
 func InitSchedule(Ip string, port int) (err error) {
+	backend,_:=InitWindowsBackend()
 	G_Client = &Client{
 		Ip:            Ip,
 		Port:          port,
 		memoryMsgChan: make(chan *zoolon_message.Message, 0),
+		backend:backend,
 	}
+
 	go G_Client.Start()
 	return
 }

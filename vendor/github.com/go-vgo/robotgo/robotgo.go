@@ -369,10 +369,11 @@ func MoveMouse(x, y int) {
 }
 
 // Move move the mouse
-func Move(x, y int) {
+func Move(x, y float64) {
 	cx := C.int32_t(x)
 	cy := C.int32_t(y)
-	C.move_mouse(cx, cy)
+	input:=mouseInput
+	//C.move_mouse(cx, cy)
 }
 
 // DragMouse drag the mouse

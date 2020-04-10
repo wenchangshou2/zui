@@ -1,6 +1,10 @@
 package form
 type ActiveWindowByPidRequestBody struct{
 	Data struct {
-		Pid int32
+		Pid int
+		X int
+		Y int
+		Width int
+		Height int
 	}
 }

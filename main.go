@@ -29,6 +29,9 @@ func main() {
 		log.Fatalf("创建日志模块失败")
 		return
 	}
+	if err=InitTouchServer(setting.TouchSetting);err!=nil{
+
+	}
 	if err = InitSchedule(setting.ServerSetting.Ip, setting.ServerSetting.Port); err != nil {
 		log.Fatalf("初始化调度失败:"+err.Error())
 		return
@@ -41,3 +44,4 @@ func main() {
 
 	}
 }
+

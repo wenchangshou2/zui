@@ -16,6 +16,7 @@ require (
 	github.com/wenchangshou2/zoolon_message v0.0.0-20200211030953-ce40505aeca3
 	github.com/wenchangshou2/zutil v0.0.0-20200330055327-e33cb6e69b72
 	go.uber.org/zap v1.14.1
+	golang.org/x/net v0.0.0-20190724013045-ca1201d0de80
 	gopkg.in/Knetic/govaluate.v3 v3.0.0 // indirect
 	gopkg.in/go-playground/assert.v1 v1.2.1 // indirect
 	gopkg.in/go-playground/validator.v9 v9.31.0
