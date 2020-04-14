@@ -1,6 +1,6 @@
 version: "{build}"
 
-os: Windows Server 2019	
+os: Windows Server 2012 R2
 
 clone_folder: c:\gopath\src\github.com\wenchangshou2\zui
 
