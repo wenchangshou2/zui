@@ -16,8 +16,11 @@ install:
   - set CGO_ENABLED=1
   - go version
   - go env
-artifacts:
-  - path: zui.exe*
 
 build_script:
   - go build
+  - ls .
+artifacts:
+  - path: zui.exe*
+    name: zui
+    type: zip
