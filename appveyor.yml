@@ -19,8 +19,8 @@ install:
 
 build_script:
   - go build
+  - 7z a myapp.zip .\%APPVEYOR_BUILD_FOLDER%\zui.exe*
   - ls .
 artifacts:
-  - path: zui.exe*
+  - path: myapp.zip
     name: zui
-    type: zip
