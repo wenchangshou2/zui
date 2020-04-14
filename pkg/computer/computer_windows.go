@@ -1,8 +1,13 @@
-
 package computer
 
+/*
+#include "goKey.h"
+ */
+import "C"
 import (
 	"errors"
+	"fmt"
+	"reflect"
 	"syscall"
 	"unsafe"
 )
@@ -98,6 +103,89 @@ func (p *WindowsBackend) KeyboardText(text string) error {
 	}
 	return p.sendInput(inputs)
 }
+func (p *WindowsBackend)KeyTap(tapKey string, args ...interface{}) string {
+	var (
+		akey     string
+		keyT     = "null"
+		keyArr   []string
+		num      int
+		keyDelay = 10
+	)
+	// var ckeyArr []*C.char
+	ckeyArr := make([](*C.char), 0)
+
+	// zkey := C.CString(args[0])
+	zkey := C.CString(tapKey)
+	defer C.free(unsafe.Pointer(zkey))
+
+	if len(args) > 2 && (reflect.TypeOf(args[2]) != reflect.TypeOf(num)) {
+		num = len(args)
+		for i := 0; i < num; i++ {
+			s := args[i].(string)
+			ckeyArr = append(ckeyArr, (*C.char)(unsafe.Pointer(C.CString(s))))
+		}
+
+		str := C.key_Taps(zkey, (**C.char)(unsafe.Pointer(&ckeyArr[0])),
+			C.int(num), 0)
+		return C.GoString(str)
+	}
+
+	if len(args) > 0 {
+		fmt.Println("111")
+		if reflect.TypeOf(args[0]) == reflect.TypeOf(keyArr) {
+
+			fmt.Println("2222")
+			keyArr = args[0].([]string)
+			num = len(keyArr)
+
+			for i := 0; i < num; i++ {
+				ckeyArr = append(ckeyArr, (*C.char)(unsafe.Pointer(C.CString(keyArr[i]))))
+			}
+
+			if len(args) > 1 {
+				keyDelay = args[1].(int)
+			}
+		} else {
+			fmt.Println("333")
+			akey = args[0].(string)
+
+			if len(args) > 1 {
+				if reflect.TypeOf(args[1]) == reflect.TypeOf(akey) {
+					keyT = args[1].(string)
+					if len(args) > 2 {
+						keyDelay = args[2].(int)
+					}
+				} else {
+					keyDelay = args[1].(int)
+				}
+			}
+		}
+
+	} else {
+		akey = "null"
+		keyArr = []string{"null"}
+	}
+
+	if akey == "" && len(keyArr) != 0 {
+		fmt.Println("akey",akey,keyArr)
+		str := C.key_Taps(zkey, (**C.char)(unsafe.Pointer(&ckeyArr[0])),
+			C.int(num), C.int(keyDelay))
+		fmt.Println("str22",C.GoString(str))
+
+		return C.GoString(str)
+	}
+
+	amod := C.CString(akey)
+	amodt := C.CString(keyT)
+
+	str := C.key_tap(zkey, amod, amodt, C.int(keyDelay))
+	fmt.Println("str11:",C.GoString(str))
+
+	C.free(unsafe.Pointer(amod))
+	C.free(unsafe.Pointer(amodt))
+
+	return C.GoString(str)
+}
 func (p *WindowsBackend) KeyboardKey(key Key) error {
 	input := keyboardInput{typ: inputKeyboard}
 	if key == KeyVolumeMute {
@@ -120,6 +208,7 @@ func (p *WindowsBackend) KeyboardKey(key Key) error {
 	return p.sendInput(inputs[:])
 }
 
+// 发送功能键
 func (p *WindowsBackend) PointerButton(button PointerButton, press bool) error {
 	input := mouseInput{typ: inputMouse}
 	if button == PointerButtonLeft && press {
@@ -143,6 +232,8 @@ func (p *WindowsBackend) PointerButton(button PointerButton, press bool) error {
 	}
 	return nil
 }
+
+// 鼠标移动事件
 func (p *WindowsBackend) PointerMove(deltaX, deltaY int) error {
 	input := mouseInput{
 		typ:     inputMouse,
@@ -183,4 +274,3 @@ func (p *WindowsBackend) PointerScroll(deltaHorizontal, deltaVertical int) error
 	}
 	return nil
 }
-

@@ -45,6 +45,7 @@ type Backend interface {
 	PointerMove(deltaX, deltaY int) error
 	PointerScroll(deltaHorizontal, deltaVertical int) error
 	PointerScrollFinish() error
+	KeyTap(tapKey string, args ...interface{}) string
 }
 
 

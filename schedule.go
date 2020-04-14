@@ -16,7 +16,6 @@ import (
 	"strings"
 	"time"
 
-	"github.com/go-vgo/robotgo"
 	"github.com/gorilla/websocket"
 	"github.com/wenchangshou2/zoolon_message"
 	"github.com/wenchangshou2/zui/form"
@@ -332,7 +331,6 @@ func (c *Client) move(data []byte) error {
 	}
 	fmt.Println("move",r.X,r.Y)
 	c.backend.PointerMove(int(r.X),int(r.Y))
-
 	//G_Backend.PointerMove(r.X,r.Y)
 	//robotgo.Move(r.X, r.Y)
 	return nil
@@ -364,11 +362,11 @@ func (c *Client) activeByPid(data []byte) error {
 		return errors.New("pid 必须存在")
 	}
 	C.ActiveForcePid(C.int(r.Data.Pid))
-	x:=int(r.Data.X+(r.Data.Width/2))
-	y:=int(r.Data.Y+(r.Data.Width/2))
-	robotgo.Move(x,y)
-	robotgo.Click()
-	robotgo.Move(9999,9999)
+	//x:=int(r.Data.X+(r.Data.Width/2))
+	//y:=int(r.Data.Y+(r.Data.Width/2))
+	//robotgo.Move(x,y)
+	//robotgo.Click()
+	//robotgo.Move(9999,9999)
 	return nil
 }
 
@@ -385,10 +383,14 @@ func (c *Client) keyboard(data []byte) error {
 	}
 	keyArr := strings.Split(r.Key, "+")
 	if len(keyArr) == 1 {
-		robotgo.KeyTap(keyArr[0])
-	} else {
-
-		robotgo.KeyTap(keyArr[0], keyArr[1:])
+		G_Backend.KeyTap(keyArr[0])
+		//robotgo.KeyTap(keyArr[0])
+	} else if len(keyArr)==2 {
+		G_Backend.KeyTap(keyArr[0],keyArr[1])
+		//robotgo.KeyTap(keyArr[0], keyArr[1:])
+	}else if len(keyArr)==3 {
+		G_Backend.KeyTap(keyArr[0],keyArr[1],keyArr[2])
+		//robotgo.KeyTap(keyArr[0], keyArr[1:])
 	}
 	fmt.Println(r)
 	return nil
