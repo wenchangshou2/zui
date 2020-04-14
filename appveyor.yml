@@ -9,7 +9,7 @@ environment:
   GO111MODULE: on
 
 install:
-  - set PATH=%GOPATH%\bin;C:\cygwin64\bin;c:\go\bin;%PATH%
+  - set PATH=%GOPATH%\bin;c:\mingw-w64\x86_64-7.2.0-posix-seh-rt_v5-rev1\bin;c:\go\bin;%PATH%
   - go version
   - go env
 
