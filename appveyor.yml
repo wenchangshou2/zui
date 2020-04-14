@@ -9,7 +9,9 @@ environment:
   GO111MODULE: on
 
 install:
-  - set PATH=%GOROOT%\bin;%GOPATH%\bin;C:\msys64\usr\bin;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Bin;%PATH%
+  - choco install mingw
+  - SET PATH=c:\tools\mingw64\bin;%PATH%
+  # - set PATH=%GOROOT%\bin;%GOPATH%\bin;C:\msys64\usr\bin;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Bin;%PATH%
   - set PATH_WAS=%PATH%
   - set CGO_ENABLED=1
   - go version
